@@ -1,0 +1,28 @@
+{
+  "name": "apollo-server-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.9.16",
+    "apollo-server-constraint-directive": "^1.1.2",
+    "deepmerge": "^4.2.2",
+    "graphql": "^14.5.8",
+    "graphql-type-json": "^0.3.1",
+    "uniqid": "^5.2.0",
+    "validator": "^12.1.0",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
