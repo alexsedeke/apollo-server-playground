@@ -1,16 +1,32 @@
 {
   "name": "apollo-server-playground",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playground or/and template for Apollo GraphQL Server",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "serve": "nodemon index.js",
-    "test": "jest"
+    "serve": "nodemon -r dotenv/config --inspect=9229",
+    "lint": "eslint ./",
+    "lint:fix": "eslint --fix ./",
+    "test": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "test:unit": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderVu/apollo-server-playground.git"
+  },
+  "keywords": [
+    "Apollo",
+    "GraphQL",
+    "Template",
+    "Playground"
+  ],
+  "author": "Alexander Vu <alexander.vu.tuyet@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderVu/apollo-server-playground/issues"
+  },
+  "homepage": "https://github.com/alexanderVu/apollo-server-playground#readme",
   "dependencies": {
     "apollo-server": "^2.9.16",
     "apollo-server-constraint-directive": "^1.1.2",
@@ -22,6 +38,13 @@
     "zxcvbn": "^4.4.2"
   },
   "devDependencies": {
+    "coveralls": "^3.0.9",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "jest": "^25.1.0",
     "nodemon": "^2.0.2"
   }
