@@ -22,17 +22,17 @@
     "Playground"
   ],
   "author": "Alexander Vu <alexander.vu.tuyet@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alexanderVu/apollo-server-playground/issues"
   },
   "homepage": "https://github.com/alexanderVu/apollo-server-playground#readme",
   "dependencies": {
     "apollo-server": "^2.11.0",
-    "apollo-server-constraint-directive": "^1.1.4",
+    "apollo-server-constraint-directive": "^1.2.0",
     "deepmerge": "^4.2.2",
     "dotenv": "^8.2.0",
-    "graphql": "^14.6.0",
+    "graphql": "^15.0.0",
     "graphql-type-json": "^0.3.1",
     "uniqid": "^5.2.0",
     "validator": "^13.0.0",
@@ -41,12 +41,12 @@
   "devDependencies": {
     "coveralls": "^3.0.11",
     "eslint": "^6.8.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-node": "^11.0.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "jest": "^25.1.0",
+    "jest": "^25.2.7",
     "nodemon": "^2.0.2"
   }
 }
