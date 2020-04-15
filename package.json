@@ -28,8 +28,8 @@
   },
   "homepage": "https://github.com/alexanderVu/apollo-server-playground#readme",
   "dependencies": {
-    "apollo-server": "^2.11.0",
-    "apollo-server-constraint-directive": "^1.2.0",
+    "apollo-server": "^2.12.0",
+    "apollo-server-constraint-directive": "^1.2.1",
     "deepmerge": "^4.2.2",
     "dotenv": "^8.2.0",
     "graphql": "^15.0.0",
@@ -46,7 +46,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "jest": "^25.2.7",
-    "nodemon": "^2.0.2"
+    "jest": "^25.3.0",
+    "nodemon": "^2.0.3"
   }
 }
