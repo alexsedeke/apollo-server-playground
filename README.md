@@ -1,7 +1,7 @@
 # apollo-server-playground
 
-[![Build Status](https://travis-ci.org/alexanderVu/apollo-server-playground.svg?branch=master)](https://travis-ci.org/alexanderVu/apollo-server-playground)
-[![Coverage Status](https://coveralls.io/repos/github/alexanderVu/apollo-server-playground/badge.svg?branch=master)](https://coveralls.io/github/alexanderVu/apollo-server-playground?branch=master)
+![GitHub actions test coverage](https://github.com/alexanderVu/apollo-server-playground/workflows/Test%20Coverage/badge.svg)
+[![codecov](https://codecov.io/gh/alexanderVu/apollo-server-playground/branch/master/graph/badge.svg)](https://codecov.io/gh/alexanderVu/apollo-server-playground)
 [![Known Vulnerabilities](https://snyk.io/test/github/alexanderVu/apollo-server-playground/badge.svg?targetFile=package.json)](https://snyk.io/test/github/alexanderVu/apollo-server-playground?targetFile=package.json)
 
 > Template or playground for Apollo-Server (GraphQL).
@@ -30,7 +30,7 @@ npm run serve
 
 * *serve* - Start the API with nodemon for hot reload during development
 * *start* - Node default start script to start api in production
-* *test* - Run jest test utility with coverall
+* *test* - Run all tests
 * *test:unit* - Run jest test utility only
 * *lint* - Run eslint standard
 * *lint:fix* - Run eslint with fix option
