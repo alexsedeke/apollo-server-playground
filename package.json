@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/alexanderVu/apollo-server-playground#readme",
   "dependencies": {
-    "apollo-server": "^2.13.1",
+    "apollo-server": "^2.14.2",
     "apollo-server-constraint-directive": "^1.2.3",
     "deepmerge": "^4.2.2",
     "dotenv": "^8.2.0",
