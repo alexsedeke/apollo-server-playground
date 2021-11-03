@@ -35,7 +35,7 @@
     "graphql": "^15.4.0",
     "graphql-type-json": "^0.3.2",
     "uniqid": "^5.2.0",
-    "validator": "^13.5.2",
+    "validator": "^13.7.0",
     "zxcvbn": "^4.4.2"
   },
   "devDependencies": {
